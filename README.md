@@ -2,7 +2,7 @@
 
 | Student ID | First Name | Last Name | GitHub username            |
 | ---        | ---        | ---       | ---                        |
-|    | David	  | Rossi	  |  |
+| 40095896   | David	  | Rossi	  | d-rossi |
 |    | Patrick	  | Youssef  |  |
 | 40095921   | Daniel    | Esguerra    |danielxjean    |
 
