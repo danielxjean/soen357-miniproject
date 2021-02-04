@@ -1,4 +1,4 @@
-# SOEn 357 Mini-project
+# SOEN 357 Mini-project
 
 | Student ID | First Name | Last Name | GitHub username            |
 | ---        | ---        | ---       | ---                        |
