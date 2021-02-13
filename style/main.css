@@ -4,7 +4,7 @@ body {
     background: #f2f6e9;
 }
 .navbar {
-    background:#6ab446;
+    background:#32A15B;
 }
 .nav-link,
 .navbar-brand {
@@ -42,10 +42,10 @@ body {
     text-align: center;
 }
 .description h1 {
-    color: #6ab446;
+    color: #32A15B;
 }
 .description p {
-    color: #fff;
+    color: #32A15B;
     font-size: 1.3rem;
     line-height: 1.5;
 }
@@ -88,4 +88,15 @@ body {
 .footer-copyright {
     color: #666;
     padding: 40px 0;
+}
+.logo {
+    width: 5%;
+}
+.long-image-modal {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: #333;
 }
