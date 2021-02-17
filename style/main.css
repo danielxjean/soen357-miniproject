@@ -143,3 +143,11 @@ body {
 .row .columns {
     margin: 0px 25px;
 }
+
+.subtitle {
+    font-size: x-large;
+}
+
+.userPersona {
+    width: 25%;
+}
