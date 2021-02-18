@@ -109,16 +109,12 @@ body {
     width: 50%;
 }
 
-.modal-content {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
 
 #img01 {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 50%;
+    max-width: 900px;
 }
 
 
@@ -136,8 +132,8 @@ body {
 }
 
 .row .columns img {
-    height: 189px;
-    width: 252px;
+    height: 283px;
+    width: 378px;
 }
 
 .row .columns {
@@ -151,3 +147,4 @@ body {
 .userPersona {
     width: 25%;
 }
+
