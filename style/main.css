@@ -141,10 +141,33 @@ body {
 }
 
 .subtitle {
-    font-size: x-large;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .userPersona {
     width: 25%;
+}
+
+.text-content {
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+    line-height: 1.75;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
