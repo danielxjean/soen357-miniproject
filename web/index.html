@@ -50,26 +50,6 @@
                 <p>Daniel Esguerra (40095921)</p>
             </div>
         </header>
-        <div class="text-content features">
-            <div class="row">
-        
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Column 1 - Row 1</h3>
-                    <img src="../images/landing.png" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="feature-title">Column 2 - Row 1</h3>
-                    <img src="../images/landing.png" class="img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                </div>
-                
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                
-                </div>
-            </div>
-        </div>
         <div id="problem" class="text-content">
             <div class="row col-md-12">
                 <h3 class="section-header">The Problem</h3>
@@ -82,9 +62,35 @@
                 </p>
             </div>
         </div>
-        <div id="research" class="text-content">
+        <div id="research" class="text-content features">
+            <h3 class="section-header">The research</h3>
             <div class="row col-md-12">
                 <h3 class="section-header" style="margin-bottom: 30px;">The Research</h3>
+                <span class="subtitle">Survey</span>
+                <p>We created a survey to better understand the needs of our users. Amidst this pandemic, there are multiple ways
+                    to encourage healthier habits, but collecting data is necessary to uncover what these issues are that the superapp
+                    is seeking to improve. We used Google Forms to distribute our survey that was in compliance with the professor's 
+                    guidelines for collecting data. The survey can be found <a href="../docs/SOEN357 Survey - Google Forms.pdf">here</a> and the data could be found in this <a href="../docs/SOEN357 Survey.csv">sheet</a>.
+                </p>
+                <p>The collected data was then placed into the following bar and pie charts for a more comprehensive understanding of said data. 
+
+                </p>
+                <div class="d-flex justify-content-center">
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/Average hours spent in front of a screen.svg" alt="">
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/Has the covid-19 pandemic had an effect on your mental health__.svg" alt="">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/Main screen habits.svg" alt="">
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/Rating of screen habits.svg" alt="">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p style="width: 50%; margin: 5px" >This chart is pertinent as it shows that the participants use various types of applications, but among these a messasing application seems to be the highest used. This will lead us to design a space for a chat in the bottom navigation bar.</p>
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/Which of the following apps do you use regularly.svg" alt="">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/surveyResponses/What has affected your mental health_.svg" alt="">
+                    <p style="width: 50%; margin: 5px" >In regards to the previous charts, we noticed that the participants seek more than ever to connect with others, yet they feel immensely isolated. By trying to find this connection, they deem their screen habits poor as they as they spend hours and hours on their devices. In consequence, their mental health's are also negatively affected by their unhealthy screen habits.</p>
+                </div>
             </div>
             <div class="card" style="width: 25rem; display: inline-block; margin-left: 50px;">
                 <div class="card-body card-height">
@@ -209,6 +215,15 @@
                     <img style="width: 40%; margin: 5px" class="modal-image" src="../images/userPersona/ireneAntar.png" alt="">
                     <img style="width: 40%; margin: 5px" class="modal-image" src="../images/userPersona/sukiZhen.png" alt="">
                 </div><br><br>
+
+                <span class="subtitle">Storyboard</span>
+                <p>Storyboards are a visual way to narrate a user's experience. It shows in linear time a description of the user's needs
+                    as well as the provided solution through drawings. It is a perfect way to illustrate a story and in this particular case,
+                    is is the story and experience of Jalen. 
+                </p>
+                <div class="d-flex justify-content-center">
+                    <img style="width: 90%; margin: 5px" src="../images/storyBoard.jpeg" alt="">
+                </div>
                 <span class="subtitle">Journey Map</span>
                 <p>Journey maps sketches out the user experience of specific people while using the application.
                     This journey map describes the experience of Jalen Robinson, one of our user persona.
@@ -268,44 +283,65 @@
                     <p>We thought of the color of green which symbolizes nature and the natural world. It is also known
                         for being associated to many other things such as good luck, health or even money. The idea of health
                         and nature lead us to choose this color palette because of its calming effect and its association to
-                        nature. We thought that this can help connect the user to the outside world around them during this
-                        pandemic.
+                        nature. We thought that this can help our users connect to the outside world around them during this
+                        pandemic. According to our study, there was a great about of need for connection, and we think that the 
+                        green color may do just that, as well as give a calm and soothing warmth.
                     </p>
                     <div class="row">
-                        <div class="eight columns offset-by-two">
-                        <img class="modal-image" src="../images/colorPalette/genericGradient.png">
-                        <img class="modal-image" src="../images/colorPalette/matchingGradient.png"><br>
-                    <p class="subtitle">Alternative of different shades</p>
+                        <div class="col-md-12 features">
+                            <div class="d-flex justify-content-center">
+                                <img style="width: 75%; height: 50%; margin: 5px" class="modal-image" src="../images/colorPalette/genericGradient.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img style="width: 75%; height: 50%; margin: 5px" class="modal-image" src="../images/colorPalette/matchingGradient.png" alt="">
+                            </div>
+                        </div>
+
+                        <p class="subtitle">Alternative of different shades</p>
+
+                        <div class="row col-md-12 features">
+                            <div class="d-flex justify-content-center">
+                                <img style="width: 75%; height: 75%; margin: 5px" class="modal-image" src="../images/colorPalette/shades.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <img class="modal-image" src="../images/colorPalette/shades.png">
+                        <div class="col-md-12 features">
+                            <span class="subtitle">The Typography</span>
+                            <div class="row features">
+                                <div class="d-flex justify-content-center">
+                                    <p style="width: 50%; margin: 5px">We chose the <strong>Open Sans designed by Steve Matteson.</strong>
+                                    It is the second most popular typeface on Google's registry of fonts. This means
+                                    that is is highly recognizable and therefore, familiar to the users.</p>
+                                    <img style="width: 50%; margin: 5px" class="modal-image" src="../images/typography.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <span class="subtitle">The Typography</span>
-                            <p>We chose the <strong>Open Sans designed by Steve Matteson.</strong>
-                            It is the second most popular typeface on Google's registry of fonts. This means
-                            that is is highly recognizable and therefore, familiar to the users.</p>
-                        </div>
-                        <div class="col-6">
-                            <img class="modal-image" src="../images/typography.png" />
-                        </div>
-                    </div>
-            </div>
-            </div>
         </div>
         <div id="final-design" class="text-content">
-            <div class="row col-md-12">
-                <h3 class="section-header">The Final design</h3>
-            </div>
+            <h3 class="section-header">The Final Design</h3>
+            <span class="subtitle">Prototype</span>
+                <div>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); display: block; margin-left: auto; margin-right: auto;" width="500" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwUC18HdN7FEyItpIFTCUgI%2FMini-project%3Fnode-id%3D0%253A78%26scaling%3Dscale-down" allowfullscreen></iframe>
+                </div>
         </div>
         <div id="conclusion" class="text-content">
             <div class="row col-md-12">
                 <span class="section-header">Conclusion</span>
-                <p>To sum it all up, it was interesting to conduct research on the healthy habits and needs of users amidst a pandemic.
-                    One thing is certain, a lot of users have mental health needs during this time, many of which have a lack of motivation.
-                    This superapp can be beneficial in providing healthy screen habits for its users. BLA BLA BLA
+                <p>To sum it all up, it was interesting to conduct research on the health habits and needs of a small portion of the population amidst this pandemic.
+                    One thing is certain, the pandemic has had a great effect on people's mental health. Many of our participants (most of which are students) have been feeling
+                    anxious, stressed, and even depressed. The most staggering statistic was that many of our participants mentioned having a lack of motivation.
+                    The data speaks for itself that many individuals seek to connect with others and thus, have been spending a considerable portion of time in front of a screen.
+                    Some of these persons have noticed the changes in their mental health and sleep deprivation is vastly linked to their screen time.
                 </p>
+                <p>HomeoStasis can be beneficial in providing healthy screen habits for its users. Through the research of the users needs,
+                    we have decided to focus on features that allow its users to have a balance to encourage a healthier lifestyle. From drinking water,
+                    to taking breaks and exercising, to sleeping and meditating, and even doing their groceries, we hope to pursue just that. We hope to really
+                    have an impactful change for our users, that they may feel healtier and be healthier spiritually, physically, and mentally.
+                </p>
+
             </div>
         </div>
 
