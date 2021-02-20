@@ -171,3 +171,12 @@ body {
     text-transform: uppercase;
 }
 
+.card-height {
+    height: 300px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
