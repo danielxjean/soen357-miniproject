@@ -92,16 +92,11 @@ body {
 .logo {
     width: 5%;
 }
-.long-image-modal {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    box-shadow: #333;
+.large-modal-image {
+
 }
 
-.modal-image:hover {
+.modal-image:hover, .large-modal-image {
     cursor: pointer;
 }
 
