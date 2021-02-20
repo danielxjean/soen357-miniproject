@@ -175,6 +175,14 @@ body {
     height: 300px;
 }
 
+.card-height-overview {
+    height: 350px;
+}
+
+.card-height-cons {
+    
+}
+
 .card-title {
     font-weight: bold;
 }
